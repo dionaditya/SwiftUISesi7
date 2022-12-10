@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38801AA7294499100073B8A6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38801AA6294499100073B8A6 /* CardView.swift */; };
+		38801AAA2944B76C0073B8A6 /* ArticalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38801AA92944B76C0073B8A6 /* ArticalCardView.swift */; };
 		3888C8972943775100103C3F /* SwiftUISesi7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888C8962943775100103C3F /* SwiftUISesi7App.swift */; };
 		3888C8992943775100103C3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888C8982943775100103C3F /* ContentView.swift */; };
 		3888C89B2943775400103C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3888C89A2943775400103C3F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38801AA6294499100073B8A6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		38801AA92944B76C0073B8A6 /* ArticalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticalCardView.swift; sourceTree = "<group>"; };
 		3888C8932943775100103C3F /* SwiftUISesi7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISesi7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3888C8962943775100103C3F /* SwiftUISesi7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISesi7App.swift; sourceTree = "<group>"; };
 		3888C8982943775100103C3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38801AA5294499000073B8A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38801AA6294499100073B8A6 /* CardView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38801AA82944B74F0073B8A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38801AA92944B76C0073B8A6 /* ArticalCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3888C88A2943775100103C3F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +71,8 @@
 		3888C8952943775100103C3F /* SwiftUISesi7 */ = {
 			isa = PBXGroup;
 			children = (
+				38801AA82944B74F0073B8A6 /* Views */,
+				38801AA5294499000073B8A6 /* Model */,
 				3888C8962943775100103C3F /* SwiftUISesi7App.swift */,
 				3888C8982943775100103C3F /* ContentView.swift */,
 				3888C89A2943775400103C3F /* Assets.xcassets */,
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3888C8992943775100103C3F /* ContentView.swift in Sources */,
+				38801AAA2944B76C0073B8A6 /* ArticalCardView.swift in Sources */,
+				38801AA7294499100073B8A6 /* CardView.swift in Sources */,
 				3888C8972943775100103C3F /* SwiftUISesi7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
